@@ -5,9 +5,10 @@ def line(katz_deli)
   
 if katz_deli != []
 
-katz_deli.each_with_index { |name, index| puts "#{index + 1}: #{name}"}
+array = []
+katz_deli.each_with_index { |name, index| array << "#{index + 1}: #{name}"}
 
-
+puts array
 
 else
   puts "The line is currently empty."
