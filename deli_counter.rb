@@ -5,7 +5,7 @@ def line(katz_deli)
   
 if katz_deli != []
 
-array = []
+indexed_katz_deli = []
 katz_deli.each_with_index { |name, index| array << "#{index + 1}. #{name}"}
 
 puts "The line is currently: #{array.join(" ")}" 
