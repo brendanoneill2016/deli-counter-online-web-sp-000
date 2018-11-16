@@ -6,7 +6,7 @@ def line(katz_deli)
 if katz_deli != []
 
 array = []
-katz_deli.each_with_index { |name, index| array << "#{index + 1}: #{name}"}
+katz_deli.each_with_index { |name, index| array << "#{index + 1}. #{name}"}
 
 puts array
 
