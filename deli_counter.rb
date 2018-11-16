@@ -20,6 +20,6 @@ end
 
 def take_a_number(katz_deli,name)
   position = katz_deli.count + 1 
-  puts "Welcome, #{name}. You are position number #{position} in line."
+  puts "Welcome, #{name}. You are number #{position} in line."
   katz_deli << name 
 end
