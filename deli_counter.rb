@@ -16,7 +16,9 @@ end
 
 end
 
+
+
 def take_a_number(katz_deli,name)
   position = katz_deli.count + 1 
-  puts "#{name}: you are position number #{position} in the queue."
+  puts "Welcome, #{name}. You are position number #{position} in line."
 end
