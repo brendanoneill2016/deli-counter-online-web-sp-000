@@ -1,11 +1,13 @@
 # Write your code here.
-
+require 'pry'
 
 def line(katz_deli)
   
 if katz_deli != []
   
+binding.pry
 katz_deli.each_with_index { |name, index| puts "#{index + 1}: #{name}"}
+
 
 
 else
