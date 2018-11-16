@@ -8,7 +8,7 @@ if katz_deli != []
 array = []
 katz_deli.each_with_index { |name, index| array << "#{index + 1}. #{name}"}
 
-puts array.join(" ")
+puts "The line is currently: #{array.join(" ")}" 
 
 else
   puts "The line is currently empty."
